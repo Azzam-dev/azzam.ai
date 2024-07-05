@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD1BFDC2C37549900F7F38E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1BFDB2C37549900F7F38E /* AppDelegate.swift */; };
+		ECD1BFDE2C37549900F7F38E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1BFDD2C37549900F7F38E /* SceneDelegate.swift */; };
+		ECD1BFE02C37549900F7F38E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1BFDF2C37549900F7F38E /* ViewController.swift */; };
+		ECD1BFE32C37549900F7F38E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ECD1BFE22C37549900F7F38E /* Base */; };
+		ECD1BFE52C37549A00F7F38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD1BFE42C37549A00F7F38E /* Assets.xcassets */; };
+		ECD1BFE82C37549A00F7F38E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ECD1BFE72C37549A00F7F38E /* Base */; };
+		ECD1BFF32C37549A00F7F38E /* azzam_aiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1BFF22C37549A00F7F38E /* azzam_aiTests.swift */; };
+		ECD1BFFD2C37549A00F7F38E /* azzam_aiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1BFFC2C37549A00F7F38E /* azzam_aiUITests.swift */; };
+		ECD1BFFF2C37549A00F7F38E /* azzam_aiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1BFFE2C37549A00F7F38E /* azzam_aiUITestsLaunchTests.swift */; };
+		ECD1C0162C37D05300F7F38E /* ReduxReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C0152C37D05300F7F38E /* ReduxReducer.swift */; };
+		ECD1C0192C37D08300F7F38E /* ReduxActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C0182C37D08300F7F38E /* ReduxActions.swift */; };
+		ECD1C01B2C37D08E00F7F38E /* ReduxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C01A2C37D08E00F7F38E /* ReduxState.swift */; };
+		ECD1C01D2C37D09E00F7F38E /* ReduxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C01C2C37D09E00F7F38E /* ReduxStore.swift */; };
+		ECD1C0202C37D0F900F7F38E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C01F2C37D0F900F7F38E /* Coordinator.swift */; };
+		ECD1C0222C37D12100F7F38E /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C0212C37D12100F7F38E /* Storyboarded.swift */; };
+		ECD1C0242C37D13500F7F38E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C0232C37D13500F7F38E /* MainCoordinator.swift */; };
+		ECD1C0292C37D19E00F7F38E /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C0282C37D19E00F7F38E /* UserDefaults.swift */; };
+		ECD1C02B2C37D1B200F7F38E /* RealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C02A2C37D1B200F7F38E /* RealmRepository.swift */; };
+		ECD1C02D2C37D1C000F7F38E /* RealmProjectModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C02C2C37D1C000F7F38E /* RealmProjectModels.swift */; };
+		ECD1C02F2C37D1D300F7F38E /* FirebaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C02E2C37D1D300F7F38E /* FirebaseRepository.swift */; };
+		ECD1C0312C37D1E400F7F38E /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C0302C37D1E400F7F38E /* KeyboardManager.swift */; };
+		ECD1C0332C37D1F000F7F38E /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C0322C37D1F000F7F38E /* StoreKitManager.swift */; };
+		ECD1C0352C37D1FC00F7F38E /* LottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1C0342C37D1FC00F7F38E /* LottieManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD1BFEF2C37549A00F7F38E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD1BFD02C37549900F7F38E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD1BFD72C37549900F7F38E;
+			remoteInfo = azzam.ai;
+		};
+		ECD1BFF92C37549A00F7F38E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD1BFD02C37549900F7F38E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD1BFD72C37549900F7F38E;
+			remoteInfo = azzam.ai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECD1BFD82C37549900F7F38E /* azzam.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = azzam.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD1BFDB2C37549900F7F38E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECD1BFDD2C37549900F7F38E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECD1BFDF2C37549900F7F38E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECD1BFE22C37549900F7F38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECD1BFE42C37549A00F7F38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECD1BFE72C37549A00F7F38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECD1BFE92C37549A00F7F38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD1BFEE2C37549A00F7F38E /* azzam.aiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = azzam.aiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD1BFF22C37549A00F7F38E /* azzam_aiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = azzam_aiTests.swift; sourceTree = "<group>"; };
+		ECD1BFF82C37549A00F7F38E /* azzam.aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = azzam.aiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD1BFFC2C37549A00F7F38E /* azzam_aiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = azzam_aiUITests.swift; sourceTree = "<group>"; };
+		ECD1BFFE2C37549A00F7F38E /* azzam_aiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = azzam_aiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECD1C0152C37D05300F7F38E /* ReduxReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxReducer.swift; sourceTree = "<group>"; };
+		ECD1C0182C37D08300F7F38E /* ReduxActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxActions.swift; sourceTree = "<group>"; };
+		ECD1C01A2C37D08E00F7F38E /* ReduxState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxState.swift; sourceTree = "<group>"; };
+		ECD1C01C2C37D09E00F7F38E /* ReduxStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxStore.swift; sourceTree = "<group>"; };
+		ECD1C01F2C37D0F900F7F38E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		ECD1C0212C37D12100F7F38E /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		ECD1C0232C37D13500F7F38E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		ECD1C0282C37D19E00F7F38E /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		ECD1C02A2C37D1B200F7F38E /* RealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RealmRepository.swift; path = ../../../../RealmRepository.swift; sourceTree = "<group>"; };
+		ECD1C02C2C37D1C000F7F38E /* RealmProjectModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmProjectModels.swift; sourceTree = "<group>"; };
+		ECD1C02E2C37D1D300F7F38E /* FirebaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRepository.swift; sourceTree = "<group>"; };
+		ECD1C0302C37D1E400F7F38E /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
+		ECD1C0322C37D1F000F7F38E /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		ECD1C0342C37D1FC00F7F38E /* LottieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD1BFD52C37549900F7F38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD1BFEB2C37549A00F7F38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD1BFF52C37549A00F7F38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD1BFCF2C37549900F7F38E = {
+			isa = PBXGroup;
+			children = (
+				ECD1BFDA2C37549900F7F38E /* azzam.ai */,
+				ECD1BFF12C37549A00F7F38E /* azzam.aiTests */,
+				ECD1BFFB2C37549A00F7F38E /* azzam.aiUITests */,
+				ECD1BFD92C37549900F7F38E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD1BFD92C37549900F7F38E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1BFD82C37549900F7F38E /* azzam.ai.app */,
+				ECD1BFEE2C37549A00F7F38E /* azzam.aiTests.xctest */,
+				ECD1BFF82C37549A00F7F38E /* azzam.aiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD1BFDA2C37549900F7F38E /* azzam.ai */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1C00B2C37CF4D00F7F38E /* App */,
+				ECD1C00C2C37CF7300F7F38E /* Redux */,
+				ECD1C0132C37CFDE00F7F38E /* MVC */,
+				ECD1C0122C37CFCA00F7F38E /* Coordinator */,
+				ECD1C0112C37CFB900F7F38E /* Repositories */,
+				ECD1C0102C37CFAE00F7F38E /* Managers */,
+				ECD1C00F2C37CFA100F7F38E /* Constants */,
+				ECD1C00E2C37CF9700F7F38E /* Resources */,
+				ECD1C00D2C37CF8E00F7F38E /* Extensions */,
+			);
+			path = azzam.ai;
+			sourceTree = "<group>";
+		};
+		ECD1BFF12C37549A00F7F38E /* azzam.aiTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1BFF22C37549A00F7F38E /* azzam_aiTests.swift */,
+			);
+			path = azzam.aiTests;
+			sourceTree = "<group>";
+		};
+		ECD1BFFB2C37549A00F7F38E /* azzam.aiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1BFFC2C37549A00F7F38E /* azzam_aiUITests.swift */,
+				ECD1BFFE2C37549A00F7F38E /* azzam_aiUITestsLaunchTests.swift */,
+			);
+			path = azzam.aiUITests;
+			sourceTree = "<group>";
+		};
+		ECD1C00B2C37CF4D00F7F38E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1BFDB2C37549900F7F38E /* AppDelegate.swift */,
+				ECD1BFDD2C37549900F7F38E /* SceneDelegate.swift */,
+				ECD1BFE92C37549A00F7F38E /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ECD1C00C2C37CF7300F7F38E /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1C01C2C37D09E00F7F38E /* ReduxStore.swift */,
+				ECD1C01A2C37D08E00F7F38E /* ReduxState.swift */,
+				ECD1C0182C37D08300F7F38E /* ReduxActions.swift */,
+				ECD1C0152C37D05300F7F38E /* ReduxReducer.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		ECD1C00D2C37CF8E00F7F38E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECD1C00E2C37CF9700F7F38E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1BFE42C37549A00F7F38E /* Assets.xcassets */,
+				ECD1C0362C37D22C00F7F38E /* Fonts */,
+				ECD1C0372C37D23500F7F38E /* Videos */,
+				ECD1C0382C37D24600F7F38E /* Lottie */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECD1C00F2C37CFA100F7F38E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		ECD1C0102C37CFAE00F7F38E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1C0302C37D1E400F7F38E /* KeyboardManager.swift */,
+				ECD1C0322C37D1F000F7F38E /* StoreKitManager.swift */,
+				ECD1C0342C37D1FC00F7F38E /* LottieManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		ECD1C0112C37CFB900F7F38E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1C0272C37D18300F7F38E /* UserDefaults */,
+				ECD1C0262C37D17900F7F38E /* Realm */,
+				ECD1C0252C37D17000F7F38E /* Firebase */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		ECD1C0122C37CFCA00F7F38E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1C01F2C37D0F900F7F38E /* Coordinator.swift */,
+				ECD1C0212C37D12100F7F38E /* Storyboarded.swift */,
+				ECD1C0232C37D13500F7F38E /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		ECD1C0132C37CFDE00F7F38E /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1C0172C37D05900F7F38E /* Models */,
+				ECD1C0142C37D00500F7F38E /* Views */,
+				ECD1C01E2C37D0D700F7F38E /* Controllers */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		ECD1C0142C37D00500F7F38E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1BFE12C37549900F7F38E /* Main.storyboard */,
+				ECD1BFE62C37549A00F7F38E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECD1C0172C37D05900F7F38E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECD1C01E2C37D0D700F7F38E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1BFDF2C37549900F7F38E /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECD1C0252C37D17000F7F38E /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1C02E2C37D1D300F7F38E /* FirebaseRepository.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		ECD1C0262C37D17900F7F38E /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1C02A2C37D1B200F7F38E /* RealmRepository.swift */,
+				ECD1C02C2C37D1C000F7F38E /* RealmProjectModels.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		ECD1C0272C37D18300F7F38E /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				ECD1C0282C37D19E00F7F38E /* UserDefaults.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		ECD1C0362C37D22C00F7F38E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ECD1C0372C37D23500F7F38E /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		ECD1C0382C37D24600F7F38E /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD1BFD72C37549900F7F38E /* azzam.ai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD1C0022C37549A00F7F38E /* Build configuration list for PBXNativeTarget "azzam.ai" */;
+			buildPhases = (
+				ECD1BFD42C37549900F7F38E /* Sources */,
+				ECD1BFD52C37549900F7F38E /* Frameworks */,
+				ECD1BFD62C37549900F7F38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = azzam.ai;
+			productName = azzam.ai;
+			productReference = ECD1BFD82C37549900F7F38E /* azzam.ai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECD1BFED2C37549A00F7F38E /* azzam.aiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD1C0052C37549A00F7F38E /* Build configuration list for PBXNativeTarget "azzam.aiTests" */;
+			buildPhases = (
+				ECD1BFEA2C37549A00F7F38E /* Sources */,
+				ECD1BFEB2C37549A00F7F38E /* Frameworks */,
+				ECD1BFEC2C37549A00F7F38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD1BFF02C37549A00F7F38E /* PBXTargetDependency */,
+			);
+			name = azzam.aiTests;
+			productName = azzam.aiTests;
+			productReference = ECD1BFEE2C37549A00F7F38E /* azzam.aiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECD1BFF72C37549A00F7F38E /* azzam.aiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD1C0082C37549A00F7F38E /* Build configuration list for PBXNativeTarget "azzam.aiUITests" */;
+			buildPhases = (
+				ECD1BFF42C37549A00F7F38E /* Sources */,
+				ECD1BFF52C37549A00F7F38E /* Frameworks */,
+				ECD1BFF62C37549A00F7F38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD1BFFA2C37549A00F7F38E /* PBXTargetDependency */,
+			);
+			name = azzam.aiUITests;
+			productName = azzam.aiUITests;
+			productReference = ECD1BFF82C37549A00F7F38E /* azzam.aiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD1BFD02C37549900F7F38E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					ECD1BFD72C37549900F7F38E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					ECD1BFED2C37549A00F7F38E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ECD1BFD72C37549900F7F38E;
+					};
+					ECD1BFF72C37549A00F7F38E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ECD1BFD72C37549900F7F38E;
+					};
+				};
+			};
+			buildConfigurationList = ECD1BFD32C37549900F7F38E /* Build configuration list for PBXProject "azzam.ai" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD1BFCF2C37549900F7F38E;
+			productRefGroup = ECD1BFD92C37549900F7F38E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD1BFD72C37549900F7F38E /* azzam.ai */,
+				ECD1BFED2C37549A00F7F38E /* azzam.aiTests */,
+				ECD1BFF72C37549A00F7F38E /* azzam.aiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD1BFD62C37549900F7F38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD1BFE52C37549A00F7F38E /* Assets.xcassets in Resources */,
+				ECD1BFE82C37549A00F7F38E /* Base in Resources */,
+				ECD1BFE32C37549900F7F38E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD1BFEC2C37549A00F7F38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD1BFF62C37549A00F7F38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD1BFD42C37549900F7F38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD1C0332C37D1F000F7F38E /* StoreKitManager.swift in Sources */,
+				ECD1C0202C37D0F900F7F38E /* Coordinator.swift in Sources */,
+				ECD1BFE02C37549900F7F38E /* ViewController.swift in Sources */,
+				ECD1C0312C37D1E400F7F38E /* KeyboardManager.swift in Sources */,
+				ECD1BFDC2C37549900F7F38E /* AppDelegate.swift in Sources */,
+				ECD1C0292C37D19E00F7F38E /* UserDefaults.swift in Sources */,
+				ECD1C02F2C37D1D300F7F38E /* FirebaseRepository.swift in Sources */,
+				ECD1C0242C37D13500F7F38E /* MainCoordinator.swift in Sources */,
+				ECD1C02B2C37D1B200F7F38E /* RealmRepository.swift in Sources */,
+				ECD1C01D2C37D09E00F7F38E /* ReduxStore.swift in Sources */,
+				ECD1BFDE2C37549900F7F38E /* SceneDelegate.swift in Sources */,
+				ECD1C0352C37D1FC00F7F38E /* LottieManager.swift in Sources */,
+				ECD1C0222C37D12100F7F38E /* Storyboarded.swift in Sources */,
+				ECD1C0192C37D08300F7F38E /* ReduxActions.swift in Sources */,
+				ECD1C02D2C37D1C000F7F38E /* RealmProjectModels.swift in Sources */,
+				ECD1C01B2C37D08E00F7F38E /* ReduxState.swift in Sources */,
+				ECD1C0162C37D05300F7F38E /* ReduxReducer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD1BFEA2C37549A00F7F38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD1BFF32C37549A00F7F38E /* azzam_aiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD1BFF42C37549A00F7F38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD1BFFF2C37549A00F7F38E /* azzam_aiUITestsLaunchTests.swift in Sources */,
+				ECD1BFFD2C37549A00F7F38E /* azzam_aiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD1BFF02C37549A00F7F38E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD1BFD72C37549900F7F38E /* azzam.ai */;
+			targetProxy = ECD1BFEF2C37549A00F7F38E /* PBXContainerItemProxy */;
+		};
+		ECD1BFFA2C37549A00F7F38E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD1BFD72C37549900F7F38E /* azzam.ai */;
+			targetProxy = ECD1BFF92C37549A00F7F38E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECD1BFE12C37549900F7F38E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD1BFE22C37549900F7F38E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECD1BFE62C37549A00F7F38E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD1BFE72C37549A00F7F38E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD1C0002C37549A00F7F38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECD1C0012C37549A00F7F38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD1C0032C37549A00F7F38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = azzam.ai/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Azzam-R-Alrashed.azzam-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECD1C0042C37549A00F7F38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = azzam.ai/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Azzam-R-Alrashed.azzam-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECD1C0062C37549A00F7F38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Azzam-R-Alrashed.azzam-aiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/azzam.ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/azzam.ai";
+			};
+			name = Debug;
+		};
+		ECD1C0072C37549A00F7F38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Azzam-R-Alrashed.azzam-aiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/azzam.ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/azzam.ai";
+			};
+			name = Release;
+		};
+		ECD1C0092C37549A00F7F38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Azzam-R-Alrashed.azzam-aiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = azzam.ai;
+			};
+			name = Debug;
+		};
+		ECD1C00A2C37549A00F7F38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Azzam-R-Alrashed.azzam-aiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = azzam.ai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD1BFD32C37549900F7F38E /* Build configuration list for PBXProject "azzam.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD1C0002C37549A00F7F38E /* Debug */,
+				ECD1C0012C37549A00F7F38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD1C0022C37549A00F7F38E /* Build configuration list for PBXNativeTarget "azzam.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD1C0032C37549A00F7F38E /* Debug */,
+				ECD1C0042C37549A00F7F38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD1C0052C37549A00F7F38E /* Build configuration list for PBXNativeTarget "azzam.aiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD1C0062C37549A00F7F38E /* Debug */,
+				ECD1C0072C37549A00F7F38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD1C0082C37549A00F7F38E /* Build configuration list for PBXNativeTarget "azzam.aiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD1C0092C37549A00F7F38E /* Debug */,
+				ECD1C00A2C37549A00F7F38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECD1BFD02C37549900F7F38E /* Project object */;
+}

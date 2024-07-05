@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WoH-OF-AtS">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="D3c-DN-fGi">
+            <objects>
+                <viewController id="WoH-OF-AtS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G1a-Yq-57g">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpaceSketchBG" translatesAutoresizingMaskIntoConstraints="NO" id="wVS-xX-veh">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLi-h7-VkA">
+                                <rect key="frame" x="115" y="336" width="163" height="180"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Ls-iI-PbD"/>
+                        <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wVS-xX-veh" secondAttribute="bottom" id="4rP-HV-Q5V"/>
+                            <constraint firstItem="wVS-xX-veh" firstAttribute="top" secondItem="G1a-Yq-57g" secondAttribute="top" id="9M6-2W-fhS"/>
+                            <constraint firstItem="wVS-xX-veh" firstAttribute="leading" secondItem="G1a-Yq-57g" secondAttribute="leading" id="ZTj-1W-RQS"/>
+                            <constraint firstAttribute="trailing" secondItem="wVS-xX-veh" secondAttribute="trailing" id="eCD-Ub-YDp"/>
+                            <constraint firstItem="zLi-h7-VkA" firstAttribute="centerX" secondItem="G1a-Yq-57g" secondAttribute="centerX" id="q1E-lI-oCe"/>
+                            <constraint firstItem="zLi-h7-VkA" firstAttribute="centerY" secondItem="G1a-Yq-57g" secondAttribute="centerY" id="vhb-lG-tAZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="faZ-XT-GZM" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4" y="175"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SpaceSketchBG" width="1661" height="2214"/>
+    </resources>
+</document>
