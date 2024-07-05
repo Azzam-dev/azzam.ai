@@ -1,0 +1,15 @@
+{
+  "originHash" : "e7327428c448d07ed7b81c2df282886ff42bc86802fec95465a6ecb6cc35daec",
+  "pins" : [
+    {
+      "identity" : "reswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReSwift/ReSwift",
+      "state" : {
+        "revision" : "cb5c3c02f652420ef413dea41e13ac5a76b6c0fd",
+        "version" : "6.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}

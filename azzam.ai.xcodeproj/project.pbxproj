@@ -127,6 +127,12 @@
 		ECD1BFDA2C37549900F7F38E /* azzam.ai */ = {
 			isa = PBXGroup;
 			children = (
+				ECD1BFDD2C37549900F7F38E /* SceneDelegate.swift */,
+				ECD1BFDB2C37549900F7F38E /* AppDelegate.swift */,
+				ECD1BFE92C37549A00F7F38E /* Info.plist */,
+				ECD1BFE12C37549900F7F38E /* Main.storyboard */,
+				ECD1BFE62C37549A00F7F38E /* LaunchScreen.storyboard */,
+				ECD1BFE42C37549A00F7F38E /* Assets.xcassets */,
 				ECD1C00B2C37CF4D00F7F38E /* App */,
 				ECD1C00C2C37CF7300F7F38E /* Redux */,
 				ECD1C0132C37CFDE00F7F38E /* MVC */,
@@ -160,9 +166,6 @@
 		ECD1C00B2C37CF4D00F7F38E /* App */ = {
 			isa = PBXGroup;
 			children = (
-				ECD1BFDB2C37549900F7F38E /* AppDelegate.swift */,
-				ECD1BFDD2C37549900F7F38E /* SceneDelegate.swift */,
-				ECD1BFE92C37549A00F7F38E /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -188,7 +191,6 @@
 		ECD1C00E2C37CF9700F7F38E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ECD1BFE42C37549A00F7F38E /* Assets.xcassets */,
 				ECD1C0362C37D22C00F7F38E /* Fonts */,
 				ECD1C0372C37D23500F7F38E /* Videos */,
 				ECD1C0382C37D24600F7F38E /* Lottie */,
@@ -246,8 +248,6 @@
 		ECD1C0142C37D00500F7F38E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ECD1BFE12C37549900F7F38E /* Main.storyboard */,
-				ECD1BFE62C37549A00F7F38E /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -401,6 +401,9 @@
 				Base,
 			);
 			mainGroup = ECD1BFCF2C37549900F7F38E;
+			packageReferences = (
+				ECD1C0392C37DA3200F7F38E /* XCRemoteSwiftPackageReference "ReSwift" */,
+			);
 			productRefGroup = ECD1BFD92C37549900F7F38E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -642,8 +645,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYT6GJB4Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = azzam.ai/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "مصندوق عزام";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -669,8 +675,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYT6GJB4Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = azzam.ai/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "مصندوق عزام";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -801,6 +810,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECD1C0392C37DA3200F7F38E /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = ECD1BFD02C37549900F7F38E /* Project object */;
 }
