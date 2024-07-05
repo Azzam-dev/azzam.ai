@@ -14,6 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        UserDefaults.standard.addCommit() // TODO: this should be called when the user makes some changes to a project
+        RealmRepository.shared.configuration()
+        FirebaseRepository.shared.configuration()
+        KeyboardManager.shared.configuration()
+        
+        
         return true
     }
 
